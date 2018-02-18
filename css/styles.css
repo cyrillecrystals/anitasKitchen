@@ -92,3 +92,72 @@ body {
   height: 119px;
   width: 300px;
 }
+
+.overlay-mini {
+position: absolute;
+bottom: 0;
+right: 0;
+background:rgba(0,0,0,0.0);
+overflow: hidden;
+width: 100%;
+height: 100%;
+transition: .5s ease;
+}
+
+.bg-1:hover .overlay-mini {
+position: absolute;
+bottom: 0;
+right: 0;
+background:rgba(250,250,250,0.5);
+overflow: hidden;
+width: 100%;
+height: 100%;
+transition: .5s ease;
+}
+.bg-1:hover .text {
+color: #000000;
+}
+
+.text {
+color: white;
+font-size: 40px;
+font-family: 'Handlee', Open Sans;
+padding: 16px 32px;
+white-space: nowrap;
+position: absolute;
+overflow: hidden;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+-ms-transform: translate(-50%, -50%);
+}
+.textt {
+text-align: center;
+margin-top: 2%;
+color: #ffffff;
+}
+#text1{
+padding: 5%;
+text-align: left;
+}
+#text2{
+padding: 5%;
+text-align: right;
+}
+#text3{
+padding: 5%;
+text-align: center;
+}
+
+.fasts{
+margin-bottom: 10%;
+margin-left: 10%;
+margin-right: 30%;
+margin-top: 10%;
+padding:0;
+border-color: transparent;
+border-style: solid;
+border-width: 5px;
+border-radius: 5px;
+box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
