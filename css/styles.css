@@ -1,3 +1,28 @@
-.JumboTron {
-  background-image:URL(/img/backgrounds/foodsBg.jpg/)
+.jumbotron {
+    background-image: url("../img/backgrounds/landing.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 100vw;
+    height: 80vh;
+}
+header.jumbotron {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.column {
+  width: 350%;
+  float: auto;
+}
+.div {
+    padding-top: 82%;
+    padding-right: 100%;
+    padding-bottom: 100%;
+    padding-left: 100%;
+    width: 100%;
+    padding: 25%;
+}
+.jumbotron p {
+  color: white;
 }
