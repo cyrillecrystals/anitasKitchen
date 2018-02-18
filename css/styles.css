@@ -262,3 +262,55 @@ color: #ecf0f1;
 :-ms-input-placeholder {
 color: #ecf0f1;
 }
+.footer{
+padding: 0;
+height: 300px;
+width:100%;
+background-color:#F15A29;
+}
+.social{
+text-align: center;
+margin-top: 3%;
+color: #ffffff;
+}
+
+/*-----Clickable menu------*/
+.overlayMenu {
+height: 100%;
+width: 0;
+position: fixed;
+z-index: 1;
+top: 0;
+left: 0;
+background-color: #F15A29;
+overflow-x: hidden;
+transition: 0.5s;
+}
+
+.overlay-content {
+position: relative;
+top: 25%;
+width: 100%;
+text-align: center;
+margin-top: 30px;
+}
+
+.overlayMenu a {
+padding: 8px;
+text-decoration: none;
+font-size: 36px;
+color: #000000;
+display: block;
+transition: 0.3s;
+}
+
+.overlayMenu a:hover, .overlayMenu a:focus {
+color: #f1f1f1;
+}
+
+.overlayMenu .closebtn {
+position: absolute;
+top: 20px;
+right: 45px;
+font-size: 60px;
+}
