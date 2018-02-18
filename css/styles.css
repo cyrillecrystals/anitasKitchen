@@ -1,28 +1,94 @@
-.jumbotron {
-    background-image: url("../img/backgrounds/landing.jpg");
-    background-repeat: no-repeat;
-    background-size: 100%;
-    width: 100vw;
-    height: 80vh;
+body {
+  margin: 0;
+  font-family: 'Handlee', Open Sans;
 }
-header.jumbotron {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
+
+.container-fluid {
+  padding-top: 0;
 }
-.column {
-  width: 350%;
-  float: auto;
+
+/*-------MEDIA, OVERLAY AND TEXT----------*/
+
+.media {
+  padding: 0;
+  height: 850px;
+  width: 100%;
+  background-image: url(../img/landing.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin-top: 70px;
 }
-.div {
-    padding-top: 82%;
-    padding-right: 100%;
-    padding-bottom: 100%;
-    padding-left: 100%;
-    width: 100%;
-    padding: 25%;
+
+.media2 {
+  padding: 0;
+  height: 600px;
+  width: 100%;
+  background-image: url(../img/foodsBg.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
 }
-.jumbotron p {
+
+.media3 {
+  padding: 0;
+  height: 300px;
+  width: 100%;
+  background-image: url(../img/subscribe.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.overlay {
+  padding: 0;
+  margin: auto;
+  width: 100%;
+  height: 850px;
+  background: black;
+  background: rgba(0, 0, 0, 0.0);
+}
+
+.header {
+  margin-top: 3%;
+  text-align: center;
+  font-family: 'Handlee', Open Sans;
   color: white;
+  font-size: 60px;
+}
+
+.logo {
+  margin-top: 4%;
+  text-align: center;
+}
+
+.men {
+  margin-top: 20px;
+  margin-left: 20px;
+  background-color: transparent;
+  height: 50px;
+  width: 75px;
+}
+
+/*-------END MEDIA, OVERLAY AND TEXT----------*/
+
+.bg-1 {
+  padding: 0;
+}
+
+.bg-10 {
+  padding: 0;
+}
+
+.bg-00 {
+  background-color: #F15A29;
+}
+
+.happy {
+  height: 119px;
+  width: 300px;
 }
